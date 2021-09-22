@@ -18,4 +18,4 @@ CONTAINER_NAME=myxedb && \
 docker run -d -p 1521:1521 --name $CONTAINER_NAME oracle/database:21.3.0-xe
 ```
 
-Some of the Docker run options listed [here](https://github.com/oracle/docker-images/tree/main/OracleDatabase/SingleInstance) could be used too.
+Some of the Docker run options listed [here](https://github.com/oracle/docker-images/tree/main/OracleDatabase/SingleInstance#running-oracle-database-in-a-container) could be used too.
